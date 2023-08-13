@@ -1,10 +1,10 @@
 # Resume Classification model
 In this project:
-1. a machine learning model was built to classify a given resume.
+1. a machine learning model was developed to categorize given resumes.
 2. a python script was developed to: run on command line, use the model to categorize all resumes (in .pdf format) from a <given_path>, and move them in their respective folders (inside the <given_path> and named as the category)
 
 ## About the dataset:
-The dataset collected from a kaggle repository. The link is [here](https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset)
+The dataset was collected from a kaggle repository. The link is [here](https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset)
 
 ## Keypoints of Building the model:
 1. The dataset contains a total of 2484 entries, in text and html format.
