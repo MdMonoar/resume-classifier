@@ -28,4 +28,4 @@ The dataset collected from a kaggle repository. The link is [here](https://www.k
 3. Run the following command for testing the script: <br> 'python script.py <given_path>' ; Here given path is the path of the folder that contains the resumes
 4. Check in the <given_path> to see the result.
 
-!Important: There is a 'do_not_delete' folder in the repository. This is important for running the script. You know what to do : )
+! Important: There is a 'do_not_delete' folder in the repository. This is important for running the script. You know what to do : )
