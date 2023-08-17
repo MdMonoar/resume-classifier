@@ -20,7 +20,9 @@ The dataset was collected from a kaggle repository. The link is [here](https://w
 1. It uses the model to classify resumes (in .pdf format for now) in a <given_path>
 2. Move the resumes in their respective folders (inside the <given_path> and named as the category) if the folder exist.
 3. If the folder does not exist, it will make the folder (inside the <given_path> and named as the category) and move the resume there
-4. Makes a 'categorized_resumes.csv' file in the <given_path> . A 'categorized_resumes.csv' file is included in the repsitory after running the script.
+4. Makes a 'categorized_resumes.csv' file in the <given_path> .
+
+A 'categorized_resumes.csv' file is included in the repsitory inside the 'sample_output' folder which was created after running the script. You can check the difference: before running the script in ['sample_input'](https://github.com/MdMonoar/resume-classifier/sample_input) and after running the script ['sample_output'](https://github.com/MdMonoar/resume-classifier/sample_output) folder.
 
 ## How to run the script?
 1. First download the repository
