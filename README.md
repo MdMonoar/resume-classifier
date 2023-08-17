@@ -16,6 +16,9 @@ The dataset was collected from a kaggle repository. The link is [here](https://w
 7. Parameter tuning was done using the GridSearchCV
 8. Best performing model was choosed as the final model.
 
+### Models Performance: 
+To see the models performance details please download the 'resume-classification.ipynb' file. Open it with jupyter notebook and check the last cell of 'Model Selection and Training' section.
+
 ## What the script does?
 1. It uses the model to classify resumes (in .pdf format for now) in a <given_path>
 2. Move the resumes in their respective folders (inside the <given_path> and named as the category) if the folder exist.
@@ -25,8 +28,13 @@ The dataset was collected from a kaggle repository. The link is [here](https://w
 A ['categorized_resumes.csv'](https://github.com/MdMonoar/resume-classifier/tree/main/sample_output/categorized_resumes.csv) file is included in the repsitory inside the 'sample_output' folder which was created after running the script. You can check the difference: before running the script in ['sample_input'](https://github.com/MdMonoar/resume-classifier/tree/main/sample_input) and after running the script ['sample_output'](https://github.com/MdMonoar/resume-classifier/tree/main/sample_output) folder.
 
 ## How to run the script?
-1. First download the repository
-2. Open command line in the downloaded folder and Install the necessary packages by running the following command: <br> 'pip install -r requirements.txt'
+**Prerequisites:**
+1. You should (not necessarily) create a virtual environment and activate that
+2. You must have 'pip' installed
+
+**Steps for checking:**
+1. First clone the repository in a folder (eg. <download_folder>)
+2. Open command line in the <download_folder> folder and Install the necessary packages by running the following command: <br> 'pip install -r requirements.txt'
 3. Run the following command for testing the script: <br> 'python script.py <given_path>' ; Here given path is the path of the folder that contains the resumes
 4. Check in the <given_path> to see the result.
 
